@@ -2,9 +2,11 @@ echo "# practice" >> README.md
 
 
 cd [gitで操作したいファイルパス]
-git init 
-git add [ファイルパス] 
+git init ・・・gitを使う準備
+git add [ファイルパス or ファイル名] 
+git status　・・・状況を確認できる
 git commit -m "コミットメッセージ" 
-git branch -M main 
-git remote add origin https://github.com/sonw-nemo/practice.git
- git push -u origin main
+git branch -M main ・・・ブランチをメインに強制的に変更したいとき
+git remote add origin[コード： https://github.com/sonw-nemo/practice.git]　・・・ローカル環境とGitをつなぐ操作
+git push -u origin main　・・・プッシュする
+
