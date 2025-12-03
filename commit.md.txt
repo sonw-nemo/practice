@@ -1,7 +1,10 @@
 echo "# practice" >> README.md 
+
+
+cd [gitで操作したいファイルパス]
 git init 
-git add README.md 
-git commit -m "最初のコミット" 
+git add [ファイルパス] 
+git commit -m "コミットメッセージ" 
 git branch -M main 
 git remote add origin https://github.com/sonw-nemo/practice.git
  git push -u origin main
